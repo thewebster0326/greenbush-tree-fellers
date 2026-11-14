@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://thewebster0326.github.io/greenbush-tree-fellers/sitemap.xml
