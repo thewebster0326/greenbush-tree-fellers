@@ -52,10 +52,9 @@ svg { width: 24px; height: 24px; }
 .site-header { position: sticky; top: 0; z-index: 50; background: rgba(251, 250, 246, .96); border-bottom: 1px solid transparent; transition: box-shadow .25s, border-color .25s; backdrop-filter: blur(14px); }
 .site-header.scrolled { border-color: rgba(16, 41, 31, .08); box-shadow: 0 10px 35px rgba(16, 41, 31, .06); }
 .header__inner { height: 88px; display: flex; align-items: center; justify-content: space-between; gap: 30px; }
-.brand { display: inline-flex; align-items: center; gap: 10px; color: var(--forest); flex-shrink: 0; }
-.brand__mark { width: 38px; height: 42px; color: var(--green); }
-.brand__text { font-family: var(--display); font-size: 25px; font-weight: 800; letter-spacing: .025em; line-height: .9; }
-.brand__text small { display: block; margin-top: 7px; font-family: var(--body); font-size: 8px; font-weight: 800; letter-spacing: .31em; }
+.brand { display: inline-flex; align-items: center; color: var(--forest); flex-shrink: 0; }
+.brand__logo { width: auto; height: 76px; object-fit: contain; }
+.brand--footer .brand__logo { height: 150px; }
 .desktop-nav { display: flex; align-items: center; gap: 36px; margin-left: auto; }
 .desktop-nav a { position: relative; font-size: 13px; font-weight: 700; }
 .desktop-nav a::after { content: ""; position: absolute; left: 0; right: 100%; bottom: -8px; height: 2px; background: var(--green); transition: right .25s; }
@@ -308,10 +307,7 @@ svg { width: 24px; height: 24px; }
   .topbar { font-size: 9px; }
   .topbar a { font-size: 10px; }
   .header__inner { height: 70px; }
-  .brand { gap: 7px; }
-  .brand__mark { width: 31px; height: 36px; }
-  .brand__text { font-size: 22px; }
-  .brand__text small { margin-top: 6px; font-size: 6.5px; }
+  .brand__logo { height: 62px; }
   .mobile-nav { top: 102px; height: calc(100dvh - 102px); padding-inline: 22px; }
   .hero__grid { gap: 45px; padding-top: 49px; padding-bottom: 54px; }
   .hero h1 { margin-bottom: 23px; font-size: clamp(63px, 20vw, 82px); }
